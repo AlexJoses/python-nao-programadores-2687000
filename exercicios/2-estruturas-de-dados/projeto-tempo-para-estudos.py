@@ -4,3 +4,10 @@
 # 3. Crie uma variável chamada "total_horas" e, usanod o método input(), solicite a média de horas estudada por dia;
 # 4. Crie uma variável chamada "curso" e, usando o método input(), solicite o título do curso desejado;
 # 5. Imprima na tela uma frase informando o nome da estudante, o total_dias dedicados aos estudos, o total horas semanais e o curso.
+
+nome = input('Digite seu nome: ')
+total_dias = int(input('Quantos dias por semana você estuda? '))
+total_horas = float(input('Qual a média de horas por dia de estudo? '))
+curso = input('Qual o curso desejado? ')
+horas_estudo = total_dias * total_horas
+print(f'Olá {nome}, vc estudou nessa semana {horas_estudo} de estudo no seu curso de {curso}')
