@@ -9,6 +9,7 @@ print(lista_mista)
 
 # Crie um slice na lista para que imprima na tela os elementos de índice par
 print(lista[0:-1:2])
+
 # Remova da lista o último item
 print(lista.pop())
 
